@@ -14,6 +14,7 @@
 		B329F0781A1ED68F00359EAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B329F0771A1ED68F00359EAA /* Images.xcassets */; };
 		B329F07B1A1ED68F00359EAA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B329F0791A1ED68F00359EAA /* LaunchScreen.xib */; };
 		B329F0871A1ED68F00359EAA /* NSURLSessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B329F0861A1ED68F00359EAA /* NSURLSessionTests.m */; };
+		B329F0911A1ED8E700359EAA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B329F0901A1ED8E700359EAA /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		B329F0801A1ED68F00359EAA /* NSURLSessionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSURLSessionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B329F0851A1ED68F00359EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B329F0861A1ED68F00359EAA /* NSURLSessionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLSessionTests.m; sourceTree = "<group>"; };
+		B329F0901A1ED8E700359EAA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B329F0911A1ED8E700359EAA /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		B329F05E1A1ED68F00359EAA = {
 			isa = PBXGroup;
 			children = (
+				B329F0901A1ED8E700359EAA /* CFNetwork.framework */,
 				B329F0691A1ED68F00359EAA /* NSURLSession */,
 				B329F0831A1ED68F00359EAA /* NSURLSessionTests */,
 				B329F0681A1ED68F00359EAA /* Products */,
